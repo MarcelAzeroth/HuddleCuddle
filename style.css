@@ -155,6 +155,7 @@ button{
     flex-direction: column;
     gap: 8em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .credential{
@@ -166,15 +167,13 @@ button{
     width: 40px;
 }
 
-.center{
-    text-align: center;
-}
 
 .credential-number{
     font-size: 10vw;
     font-weight: 700;
     color: var(--dark-cyan);
 }
+
 
 @media (min-width:600px){
     .credentials{
@@ -184,13 +183,10 @@ button{
         margin: 0 auto;
     }
     .credential {
-        width: 40%;
+        width: 180px;
     }
     .credential-number{
         font-size: 2.5em;
-    }
-    .center{
-        text-align: left;
     }
 
 }
